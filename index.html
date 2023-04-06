@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>two number</title>
+</head>
+<body>
+    <form id="miformulario" name="">
+        <label style="color: aqua;">Numero 1</label>
+        <input type="number" name="" id="valor1" autofocus placeholder="Escribe un numero" style=" background-color: aquamarine;">
+        <br>
+        <br>
+        <label  style="color: aqua;">Numero 2</label>
+        <input type="number" name="" id="valor2" autofocus placeholder="Escribe un segundo Numero" style="background-color: aquamarine;">
+        <br>
+        <br>
+        
+ 
+        <button type="button" onclick="sumar()" style="background-color: aqua; border-bottom: red;"><i> Sumar</i></button>
+        <button type="button" onclick="restar()" style="background-color: cyan; border-bottom: red;"> <i>Resta</i></button>
+    <button type="button" onclick="multiplicar()" style="background-color: cyan; border-bottom: red;"> <i>Multiplicacion</i></button>
+    <button type="button" onclick="dividir()" style=" background-color: cyan; border-bottom: red;"> <i>Dividir</i></button>
+    <br>
+    <br>
+    <br>
+    <button type="button" onclick="volver()" style="background-color: lightblue;"><i>Borrar</i></button>
+
+    <p style="color: black;"> el resultado es : <span id="el-resultado"></span></p>
+
+    <button type="button" onclick="clicsk()" id="haga"> CLICK AQUI</button>
+    <p id="resorte"></p>
+</form>
+  
+<script src="app.js"></script>
+</body>
+</html>
